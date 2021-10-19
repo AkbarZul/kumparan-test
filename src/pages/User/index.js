@@ -1,10 +1,11 @@
 import React from "react";
-import { Header } from "../../components";
+import { Header, TableUsers } from "../../components";
 
 const User = () => {
   return (
     <>
       <Header />
+      <TableUsers />
     </>
   );
 };

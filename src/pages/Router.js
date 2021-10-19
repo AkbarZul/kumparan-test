@@ -1,13 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom';
 
-// import Home from './Home';
+
 import User from './User';
+import UserDetail from './UserDetail';
 
 const Router = () => {
     return (
         <BrowserRouter>
             <Route path="/" exact component={User} />
+            <Route path="/user/:id" component={UserDetail} />
         </BrowserRouter>
     )
 }

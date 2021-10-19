@@ -1,0 +1,11 @@
+.user_text {
+    font-size: 25px;
+    margin-top: 40px;
+}
+.line {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.user_subtext {
+    font-size: 15px;
+}
