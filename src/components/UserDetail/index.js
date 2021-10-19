@@ -4,7 +4,7 @@ import "./userdetail.css";
 
 const UserDetails = (props) => {
     const {user} = props;
-    console.log(user);
+    // console.log(user);
   return (
     <>
       <div className="container">
