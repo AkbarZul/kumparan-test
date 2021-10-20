@@ -19,7 +19,7 @@ const UserDetail = (props) => {
         setUser(datas);
       })
       .catch((err) => {
-        console.log(err);
+        console.log('ini error', err);
       });
   };
   const postUsers = () => {
@@ -30,7 +30,7 @@ const UserDetail = (props) => {
         setPostUser(datas);
       })
       .catch((err) => {
-        console.log(err);
+        console.log('error', err);
       });
   };
   const getAlbums = () => {
@@ -41,7 +41,7 @@ const UserDetail = (props) => {
         setAlbums(datas);
       })
       .catch((err) => {
-        console.log(err);
+        console.log('err', err);
       });
   };
 
@@ -49,7 +49,7 @@ const UserDetail = (props) => {
     userDetail();
     postUsers();
     getAlbums();
-  }, [userDetail, postUsers, getAlbums]);
+  }, []);
   return (
     <>
       <Header />

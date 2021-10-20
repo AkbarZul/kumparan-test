@@ -4,6 +4,8 @@ import TableBody from './TableBody';
 import UserDetails from './UserDetail';
 import Posts from './Posts';
 import Albums from './Albums';
+import Post from './Post';
+import Comments from './Comments';
 
 export {
     Header,
@@ -12,4 +14,6 @@ export {
     UserDetails,
     Posts,
     Albums,
+    Post,
+    Comments,
 }

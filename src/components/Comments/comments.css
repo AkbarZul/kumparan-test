@@ -1,0 +1,29 @@
+.comments_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.comments_email {
+    font-size: 10px;
+}
+.comments_edit {
+    background-color: lawngreen;
+    color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.comments_delete {
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
