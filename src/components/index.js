@@ -6,6 +6,8 @@ import Posts from './Posts';
 import Albums from './Albums';
 import Post from './Post';
 import Comments from './Comments';
+import Album from './Album';
+import Photos from './Photos';
 
 export {
     Header,
@@ -16,4 +18,6 @@ export {
     Albums,
     Post,
     Comments,
+    Album,
+    Photos,
 }

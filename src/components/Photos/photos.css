@@ -1,0 +1,14 @@
+.image_photo {
+    margin-bottom: 10px;
+}
+.image_title {
+    font-size: 15px;
+    color: royalblue;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.image_subtitle {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}

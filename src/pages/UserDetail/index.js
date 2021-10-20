@@ -69,7 +69,7 @@ const UserDetail = (props) => {
           </div>
         </div>
         <div className="box_albums">
-        <p>List Post By {user.name} </p>
+        <p>Album By {user.name} </p>
         <div>
             {albums.map((albumsall) => {
               return <Albums key={albumsall.id} albums={albumsall} />;
