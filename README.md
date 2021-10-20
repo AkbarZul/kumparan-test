@@ -3,7 +3,7 @@
 
 ## About the project
 
-Sebuah dashboard sosial media yang di bangun menggunakan salah satu framework javascript yaitu ReactJs untuk frontend dan utuk backend menggunakan [jsonplaceholde](https://jsonplaceholder.typicode.com/).
+Sebuah dashboard sosial media yang di bangun menggunakan salah satu framework javascript yaitu ReactJs untuk frontend dan utuk backend menggunakan [jsonplaceholder](https://jsonplaceholder.typicode.com/).
 
 ## Build with project
 * [ReactJs](https://reactjs.org/)
@@ -20,4 +20,4 @@ Sebuah dashboard sosial media yang di bangun menggunakan salah satu framework ja
 
 ### Screenshot
 * Home
-(![screenshot-localhost_3000-2021 10 20-17_30_12](https://user-images.githubusercontent.com/67698809/138077303-50de55cf-dbf3-43e1-8550-cdcb9ed58704.png))
+![screenshot-localhost_3000-2021 10 20-17_30_12](https://user-images.githubusercontent.com/67698809/138077303-50de55cf-dbf3-43e1-8550-cdcb9ed58704.png)
