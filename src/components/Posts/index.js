@@ -80,7 +80,7 @@ const Posts = (props) => {
   return (
     <>
       <Link
-        to={{ pathname: `/posts/${post.id}` }}
+        to={{ pathname: `/posts/${post.id}`, state: {id: post.id, userId: post.userId} }}
         style={{ textDecoration: "none" }}
       >
         <p className="text_title">{post.title}</p>
