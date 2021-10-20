@@ -5,6 +5,7 @@ import { Bounce, toast } from "react-toastify";
 import axios from "axios";
 
 import "./posts.css";
+
 toast.configure();
 const Posts = (props) => {
   const { post } = props;
@@ -37,11 +38,11 @@ const Posts = (props) => {
           draggable: true,
           transition: Bounce,
         });
-        console.log("berhasil", res);
+        console.log(res);
         setDeleteModal(false);
       })
       .catch((err) => {
-        console.log("ini err", err);
+        console.log(err);
       });
   };
   const handleSubmit = (e) => {

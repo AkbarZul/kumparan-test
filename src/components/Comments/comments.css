@@ -15,6 +15,7 @@
     justify-content: center;
     border-radius: 5px;
     margin-right: 20px;
+    cursor: pointer;
 }
 .comments_delete {
     background-color: red;
@@ -26,4 +27,5 @@
     justify-content: center;
     border-radius: 5px;
     margin-right: 20px;
+    cursor: pointer;
 }

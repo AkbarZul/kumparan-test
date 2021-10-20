@@ -15,7 +15,6 @@ const Postdetail = (props) => {
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
   const [showInput, setShowInput] = useState(false);
-  // const history = useHistory()
   const api = "https://jsonplaceholder.typicode.com";
   const detail = () => {
     axios
@@ -40,7 +39,6 @@ const Postdetail = (props) => {
       });
   };
   const uid = props.location.state.userId;
-  console.log(uid);
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {
