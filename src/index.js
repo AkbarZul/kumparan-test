@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Router from './pages/Router';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-toastify/dist/ReactToastify.css";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

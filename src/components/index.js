@@ -9,6 +9,7 @@ import Comments from './Comments';
 import Album from './Album';
 import Photos from './Photos';
 
+
 export {
     Header,
     TableUsers,
@@ -20,4 +21,5 @@ export {
     Comments,
     Album,
     Photos,
+    
 }

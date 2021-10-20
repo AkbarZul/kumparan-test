@@ -9,9 +9,7 @@ const TableUsers = () => {
   const allUser = () => {
     axios.get(`${api}/users`).then((res) => {
       const datas = res.data;
-      console.log("ini data", datas);
       setUsers(datas)
-      console.log("ini datas", users);
     });
   };
 

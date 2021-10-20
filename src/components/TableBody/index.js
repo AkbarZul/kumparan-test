@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const TableBody = (props) => {
   const { user } = props;
-  console.log("ini user", user.id);
   return (
     <>
       <tr>
